@@ -1,0 +1,84 @@
+.bacSport-container{
+    border: 1px solid grey;
+    margin: auto;
+    width: 80%;
+    margin-top: 40px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px;
+    height: 100%;
+    margin-bottom: 10px;
+}
+.bacSport-container h3 {
+    text-decoration: underline #FDD835;
+    text-shadow:10px 10px 10px;
+}
+
+.bacSport-container p {
+    margin-top: 20px;
+    text-align: justify;
+}
+.bacSport-container ol{
+    display: block;
+    margin-left: 20px;
+    width: 50%;
+
+}
+.bacSport-container ol li {
+    margin-top: 10px;
+}
+
+.bacSport-container span {
+    font-weight: bold;
+}
+
+.bac-box{
+    display: flex;
+    justify-content: space-around;
+}
+.imgbacsport{
+    width: 35%;
+    max-height: 250px;
+}
+.imgbacsport img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+    .bacSport-container{
+        margin-top: 20px;
+        width: 95%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width: 650px){
+    .bac-box{
+        flex-direction: column;
+    }
+    .bacSport-container ol{
+        display: block;
+        margin-left: 20px;
+        width: 90%;
+    }
+    .imgbacsport{
+        width: 60%;
+        margin: auto;
+    }
+    .bacSport-container h3 {
+        font-size: 1.3rem;
+    }
+    
+    .bacSport-container p, .bacSport-container ol li, .bacSport-container span  {
+        font-size: 0.9rem;
+
+    }
+    .bacSport-container{
+        width: 95%;
+        margin: auto;
+    }
+}

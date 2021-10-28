@@ -1,0 +1,51 @@
+/*ESPACE MUSCULATION*/
+
+#carouselmusculation .carousel {
+    max-height: 400px;
+    width:100%;
+    border-radius: 10px;
+}
+#carouselmusculation .carousel img {
+    border-radius: 10px;
+    height: 350px;
+    width: 100%;
+}
+
+/*HOME*/
+#carousselHome .carousel {
+    height: 450px;
+    width:100%;
+    border-radius: 10px;
+}
+#carousselHome .carousel img {
+    border-radius: 10px;
+    height: 450px;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 768px){
+
+    #carouselmusculation .carousel {
+        height: 220px;
+        width: 100%;
+    }
+    #carouselmusculation .carousel img {
+        height: 220px;
+        width: 100%;
+    }
+    .img-musc-container {
+        height: 220px;
+        width: 100%;
+    }  
+
+    /*espace home*/
+
+    #carousselHome .carousel {
+        height: 300px;
+    }
+    #carousselHome .carousel img {
+
+        height: 300px;
+    }
+}

@@ -1,0 +1,54 @@
+.fitness{
+    height: 550px;
+}
+.fitness-container{
+    border: 1px solid grey;
+    margin: auto;
+    width: 80%;
+    margin-top: 40px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px;
+    height: 80%;
+}
+
+.fitness-container h3 {
+    text-decoration: underline #FDD835;
+    text-shadow:10px 10px 10px;
+}
+.fitness-container p {
+    margin-top: 20px;
+}
+.fitness-container ul{
+    display: block;
+    margin-left: 20px;
+    list-style-type: disc;
+}
+.fitness-container ul li {
+    margin-top: 10px;
+}
+
+.fitness-container ul li span {
+    font-weight: bold;
+}
+@media screen and (max-width: 768px){
+    .fitness-container{
+        width: 95%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 99%;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+    .fitness{
+        height: 100%;
+    }
+    .fitness-container{
+        box-shadow: none;
+    }
+    .fitness-container p, .fitness-container ul, .fitness-container ul li, .fitness-container ul li span{
+        font-size: 0.85rem;
+    }
+}

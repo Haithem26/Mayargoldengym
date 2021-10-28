@@ -1,0 +1,215 @@
+
+.parallax {
+  /* The image used */
+  background-image: url("../images/img-bg.jpg");
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sect1 {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.377);
+}
+.content {
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
+.front-img {
+  width: 200px;
+  height: 20 0px;
+  margin: auto;
+}
+.front-img img {
+  height: 100%;
+  width: 100%;
+}
+.content h1,
+.content h3 {
+  margin: 50px;
+  padding-top: 10px;
+  color: white;
+}
+
+.content h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+.content h3 {
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+}
+.btn-2 {
+  padding: 10px;
+  border: none;
+  margin: 10px;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  transition: all 0.3s ease-in-out;
+  font-weight: 700;
+}
+.btn_Club,
+.btn-contact {
+  padding: 20px 70px 20px 70px;
+  text-transform: uppercase;
+  border: none;
+  margin: 10px;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  transition: all 0.3s ease-in-out;
+  font-weight: 700;
+  background-color: #ffdd00;
+  letter-spacing: 1.5px;
+}
+
+.btn_Club:hover,
+.btn-contact:hover {
+  cursor: pointer;
+  font-size: 1.1rem;
+  background-color: transparent;
+  border: 1px solid #ffdd00;
+  color: white;
+}
+.btn-2:hover {
+  cursor: pointer;
+  font-size: 1.1rem;
+  background-color: transparent;
+}
+.sect2 {
+  background: #ffdd00b4;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+}
+.sect2Content {
+  margin: auto;
+  text-align: center;
+}
+.sect2Content h1 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.btn-2 {
+  margin-top: 10px;
+  background-color: rgb(83, 81, 81);
+  padding: 15px;
+  text-transform: uppercase;
+  color: white;
+}
+.btn-2:hover {
+  background-color: rgba(128, 128, 128, 0.753);
+  color: white;
+}
+.sect3 {
+  background-color: #2d2d2dcc;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0 10px 0;
+  height: 90vh;
+}
+.sect3Content {
+  width: 80%;
+  margin: auto;
+}
+.sect3Content h1 {
+  color: #ffdd00;
+  margin: 10px;
+}
+.descirption p {
+  margin: 10px;
+  font-size: 18px;
+  color: white;
+}
+.imgSlide {
+  display: flex;
+  flex-direction: column;
+}
+.imgSlide img {
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 60%;
+  margin: auto;
+}
+@media screen and (max-width: 991px) {
+  .btn_Club,
+  .btn-contact {
+    padding: 20px 50px 20px 50px;
+    font-size: 1.1rem;
+  }
+  .content h1 {
+    font-size: 2.5rem;
+  }
+  .sect3Content {
+    width: 95%;
+  }
+  .imgSlide img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .btn_Club,
+  .btn-contact {
+    padding: 10px 20px 10px 20px;
+    font-size: 0.8rem;
+  }
+  .content h1 {
+    font-size: 1.6rem;
+  }
+  .front-img {
+    width: 130px;
+  }
+  .sect2Content h1 {
+    font-size: 1.6rem;
+  }
+  .btn-2 {
+    font-size: 1rem;
+    padding: 15px;
+  }
+  .sect3Content h1 {
+    font-size: 21px;
+  }
+  .descirption p {
+    font-size: 14px;
+  }
+  .imgSlide img {
+    height: 260px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .btn_Club,
+  .btn-contact {
+    padding: 10px 20px 10px 20px;
+    font-size: 0.8rem;
+  }
+
+  .content h1 {
+    font-size: 1.4rem;
+  }
+  .content h3 {
+    font-size: 1.2rem;
+  }
+  .imgSlide img {
+    height: 200px;
+  }
+  .landing {
+    width: 100%;
+  }
+  .parallax {
+    width: 100%;
+  }
+}

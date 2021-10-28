@@ -1,0 +1,121 @@
+
+.tarifs-container h1{
+    text-decoration: underline #FDD835;
+    margin: 10px
+}
+
+.tarifs-container{
+    margin: 35px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 5px 3px 3px 3px grey;
+
+}
+.subscription{
+    display: flex;
+    text-align: center;
+}
+.subscription h2{
+    font-size: 1.3rem;
+}
+
+.subMusculation, .subCardio, .subAerobic{
+    background-color: #FDD835;
+    width: 25%;
+    height: 450px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+
+.box-header{
+    margin-top: 30px;
+}
+.box-desc{
+    margin-top: 20px;
+    min-height: 170px;
+}
+
+.border{
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+    .tarifs-container h1{
+        font-size: 25px;
+    }
+
+    .subscription h2{
+        font-size: 1.1rem;
+    }
+
+    .box-header{
+        margin-top: 20px;
+    }
+    .box-desc{
+        margin-top: 10px;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 767px){
+
+    .tarifs-container{
+        margin: 35px;
+        border: 1px solid grey;
+        border-radius: 10px;
+        box-shadow: none;
+    }
+    .tarifs-container h1{
+        font-size: 1.4rem;
+    }
+
+    .subMusculation, .subCardio, .subAerobic{
+        width: 30%;
+        height: 350px;
+        padding: 10px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        box-shadow: none;
+    }
+    .subscription h2{
+        font-size: 1rem;
+    }
+
+    .box-header{
+        margin-top: 20px;
+        font-size: 0.9rem;
+    }
+    .box-desc{
+        margin-top: 0px;
+        font-size: 0.8rem;
+    }
+
+}
+@media screen and (max-width: 633px){
+
+    .tarifs-container{
+        margin-top: 10px;
+        width: 95%;
+        margin: auto;
+
+    }
+    .subscription{
+        flex-direction: column;
+    }
+    .subMusculation, .subCardio, .subAerobic{
+        width: 80%;
+        height: 350px;
+        padding: 10px;
+        margin-bottom: 5px;
+        margin-top: 10px;
+        box-shadow: none;
+    }
+
+}
+
