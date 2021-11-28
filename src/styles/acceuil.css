@@ -146,17 +146,46 @@
 @media screen and (max-width: 991px) {
   .btn_Club,
   .btn-contact {
-    padding: 20px 50px 20px 50px;
-    font-size: 1.1rem;
+    padding: 20px 40px 20px 40px;
+    font-size: 1rem;
   }
   .content h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
   .sect3Content {
     width: 95%;
   }
   .imgSlide img {
     width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .btn_Club,
+  .btn-contact {
+    padding: 15px 30px 15px 30px;
+    font-size: 0.8rem;
+  }
+  .content h1 {
+    font-size: 1.7rem;
+  }
+  .front-img {
+    width: 130px;
+  }
+  .sect2Content h1 {
+    font-size: 1.7rem;
+  }
+  .btn-2 {
+    font-size: 1.1rem;
+    padding: 15px;
+  }
+  .sect3Content h1 {
+    font-size: 21px;
+  }
+  .descirption p {
+    font-size: 14px;
+  }
+  .imgSlide img {
+    height: 260px;
   }
 }
 

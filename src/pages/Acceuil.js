@@ -65,3 +65,23 @@ const Acceuil = () => {
 };
 
 export default Acceuil;
+
+/*
+<section data-aos="fade-down" className="sect1">
+          <div className="content">
+            <h1>BIENVENUE À Mayar Golden Gym</h1>
+            <div className="front-img">
+              <img src={logo_a} alt="log mayar"></img>
+            </div>
+            <h3> Salle de sport et de Fitness </h3>
+            <div className="btn-sect1">
+              <NavLink className="btn_Club" to="/espace-musculation">
+                Club
+              </NavLink>
+              <NavLink className="btn-contact" to="/contact">
+                Contact
+              </NavLink>
+            </div>
+          </div>
+        </section>
+*/
