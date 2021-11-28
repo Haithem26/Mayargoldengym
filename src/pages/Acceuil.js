@@ -16,7 +16,7 @@ const Acceuil = () => {
     <div className="landing">
       <div className="parallax">
         <section data-aos="fade-down" className="sect1">
-          <div className="content">
+          <div className="sect1content">
             <h1>BIENVENUE À Mayar Golden Gym</h1>
             <div className="front-img">
               <img src={logo_a} alt="log mayar"></img>

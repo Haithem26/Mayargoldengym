@@ -11,12 +11,12 @@
 }
 .sect1 {
   height: 100vh;
-  position: relative;
+
   display: flex;
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.377);
 }
-.content {
+.sect1content {
   margin: auto;
   text-align: center;
   justify-content: center;
@@ -30,18 +30,18 @@
   height: 100%;
   width: 100%;
 }
-.content h1,
-.content h3 {
+.sect1content h1,
+.sect1content h3 {
   margin: 50px;
   padding-top: 10px;
   color: white;
 }
 
-.content h1 {
+.sect1content h1 {
   font-size: 2.8rem;
   font-weight: bold;
 }
-.content h3 {
+.sect1content h3 {
   font-size: 2rem;
   letter-spacing: 1.5px;
 }
@@ -149,7 +149,7 @@
     padding: 20px 40px 20px 40px;
     font-size: 1rem;
   }
-  .content h1 {
+  .sect1content h1 {
     font-size: 2.2rem;
   }
   .sect3Content {
@@ -165,7 +165,7 @@
     padding: 15px 30px 15px 30px;
     font-size: 0.8rem;
   }
-  .content h1 {
+  .sect1content h1 {
     font-size: 1.7rem;
   }
   .front-img {
@@ -189,6 +189,51 @@
   }
 }
 
+@media screen and (max-width: 550px) {
+  .btn_Club,
+  .btn-contact {
+    padding: 10px 20px 10px 20px;
+    font-size: 0.8rem;
+  }
+  .sect1content h1 {
+    font-size: 1.2rem;
+  }
+  .front-img {
+    width: 100px;
+  }
+  .sect2Content h1 {
+    font-size: 1.6rem;
+  }
+  .sect1content h3 {
+    font-size: 1rem;
+  }
+  .btn-2 {
+    font-size: 1rem;
+    padding: 15px;
+  }
+  .sect3Content h1 {
+    font-size: 21px;
+  }
+  .descirption p {
+    font-size: 14px;
+  }
+  .imgSlide img {
+    height: 260px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .imgSlide img {
+    height: 200px;
+  }
+  .landing {
+    width: 100%;
+  }
+  .parallax {
+    width: 100%;
+  }
+}
+
+/*
 @media screen and (max-width: 550px) {
   .btn_Club,
   .btn-contact {
@@ -241,3 +286,7 @@
     width: 100%;
   }
 }
+
+
+
+*/
