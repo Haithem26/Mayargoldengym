@@ -26,33 +26,27 @@ const Navigations = () => {
             <Nav className="me-auto">
               <Nav.Link href="/">Acceuil</Nav.Link>
               <NavDropdown title="Nos Espaces" id="basic-nav-dropdown">
-                <NavDropdown.Item href="http://www.mayargoldengym.tn/espace-musculation">
+                <NavDropdown.Item href="/espace-musculation">
                   Espace de Musculation
                 </NavDropdown.Item>
-                <NavDropdown.Item href="http://www.mayargoldengym.tn/espace-fitness">
+                <NavDropdown.Item href="/espace-fitness">
                   Espace de Fitness
                 </NavDropdown.Item>
-                <NavDropdown.Item href="http://www.mayargoldengym.tn/espace-training">
+                <NavDropdown.Item href="/espace-training">
                   Espace de Training
                 </NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Activites" id="basic-nav-dropdown">
-                <NavDropdown.Item href="http://www.mayargoldengym.tn/cours-collectifs">
+                <NavDropdown.Item href="/cours-collectifs">
                   Cours Collectif
                 </NavDropdown.Item>
-                <NavDropdown.Item href="http://www.mayargoldengym.tn/bac-sport">
-                  Bac Sport
-                </NavDropdown.Item>
-                <NavDropdown.Item href="http://www.mayargoldengym.tn/club-enfant">
+                <NavDropdown.Item href="/bac-sport">Bac Sport</NavDropdown.Item>
+                <NavDropdown.Item href="/club-enfant">
                   Club Enfant
                 </NavDropdown.Item>
               </NavDropdown>
-              <Nav.Link href="http://www.mayargoldengym.tn/Tarifs">
-                Tarifs
-              </Nav.Link>
-              <Nav.Link href="http://www.mayargoldengym.tn/contact">
-                Contact
-              </Nav.Link>
+              <Nav.Link href="/Tarifs">Tarifs</Nav.Link>
+              <Nav.Link href="/contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

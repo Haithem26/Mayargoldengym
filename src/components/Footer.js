@@ -93,3 +93,12 @@ const Footer = () => {
 };
 
 export default Footer;
+
+/*
+                <span>
+                  {" "}
+                  <Nav.Link className="footer-btn-contact" href="/contact">
+                    Contact
+                  </Nav.Link>
+                </span>{" "}
+*/

@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import logo_a from "../images/logomayar.png";
 
 import "aos/dist/aos.css";
@@ -23,21 +23,21 @@ const Acceuil = () => {
             </div>
             <h3> Salle de sport et de Fitness </h3>
             <div className="btn-sect1">
-              <NavLink className="btn_Club" to="/espace-musculation">
+              <Link className="btn_Club" to="/espace-musculation">
                 Club
-              </NavLink>
-              <NavLink className="btn-contact" to="/contact">
+              </Link>
+              <Link className="btn-contact" to="/contact">
                 Contact
-              </NavLink>
+              </Link>
             </div>
           </div>
         </section>
         <section className="sect2">
           <div className="sect2Content" data-aos="fade-right">
             <h1>Consulter Nos tarifs</h1>
-            <NavLink className="btn-2" to="/tarifs">
+            <Link className="btn-2" to="/tarifs">
               Nos Tarifs
-            </NavLink>
+            </Link>
           </div>
         </section>
         <section className="sect3">
@@ -65,23 +65,3 @@ const Acceuil = () => {
 };
 
 export default Acceuil;
-
-/*
-<section data-aos="fade-down" className="sect1">
-          <div className="content">
-            <h1>BIENVENUE À Mayar Golden Gym</h1>
-            <div className="front-img">
-              <img src={logo_a} alt="log mayar"></img>
-            </div>
-            <h3> Salle de sport et de Fitness </h3>
-            <div className="btn-sect1">
-              <NavLink className="btn_Club" to="/espace-musculation">
-                Club
-              </NavLink>
-              <NavLink className="btn-contact" to="/contact">
-                Contact
-              </NavLink>
-            </div>
-          </div>
-        </section>
-*/

@@ -18,11 +18,13 @@ import Training from "./pages/Training";
 
 import Navigations from "./components/Navigations";
 import ClubEnfant from "./pages/ClubEnfant";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
         <Navigations />
         <Switch>
           <Route exact path="/" component={Acceuil} />
