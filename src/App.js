@@ -18,7 +18,6 @@ import Training from "./pages/Training";
 
 import Navigations from "./components/Navigations";
 import ClubEnfant from "./pages/ClubEnfant";
-import Home from "./pages/Home";
 
 function App() {
   return (
@@ -27,7 +26,6 @@ function App() {
         <Navigations />
         <Switch>
           <Route exact path="/" component={Acceuil} />
-          <Route path="/home" component={Home} />
           <Route path="/cours-collectifs" component={Courscollectif} />
           <Route path="/espace-fitness" component={Fitness} />
           <Route path="/espace-musculation" component={Musculation} />

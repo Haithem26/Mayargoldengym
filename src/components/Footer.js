@@ -76,6 +76,16 @@ const Footer = () => {
         </div>
         <div className="bot-footer">
           <p className="desc-footer">Copyright © 2021 Mayar Golden Gym.</p>
+          <p className="dev">
+            <span>Powered by</span>{" "}
+            <a
+              href="https://www.linkedin.com/in/haithem-mathlouthi-714449a5/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Haithem Mathlouthi
+            </a>
+          </p>
         </div>
       </div>
     </div>

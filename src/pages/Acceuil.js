@@ -33,7 +33,7 @@ const Acceuil = () => {
           </div>
         </section>
         <section className="sect2">
-          <div data-aos="fade-left" className="sect2Content">
+          <div className="sect2Content" data-aos="fade-right">
             <h1>Consulter Nos tarifs</h1>
             <NavLink className="btn-2" to="/tarifs">
               Nos Tarifs

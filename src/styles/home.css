@@ -1,0 +1,206 @@
+.parallax2 {
+  /* The image used */
+  background-image: url("../images/img-bg.jpg");
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home {
+  width: 100% !important;
+}
+
+.secthome {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 100px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.377);
+}
+
+.img-home {
+  width: 200px;
+  height: 20 0px;
+  margin: auto;
+}
+.img-home img {
+  height: 100%;
+  width: 100%;
+}
+.secthome h2,
+.secthome h3 {
+  margin: 50px;
+  padding-top: 10px;
+  color: white;
+}
+
+.secthome h1 {
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+.secthome h3 {
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+}
+
+.btn_Club,
+.btn-contact {
+  padding: 20px 70px 20px 70px;
+  text-transform: uppercase;
+  border: none;
+  margin: 10px;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  transition: all 0.3s ease-in-out;
+  font-weight: 700;
+  background-color: #ffdd00;
+  letter-spacing: 1.5px;
+}
+
+.btn_Club:hover,
+.btn-contact:hover {
+  cursor: pointer;
+  font-size: 1.1rem;
+  background-color: transparent;
+  border: 1px solid #ffdd00;
+  color: white;
+}
+.secTarifs {
+  background: #ffdd00b4;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.sectTarifContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+}
+.sectTarifContainer h2 {
+  letter-spacing: 2px;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.btn-tarif {
+  width: 140px;
+  border: none;
+  margin-top: 30px !important;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  transition: all 0.3s ease-in-out;
+  font-weight: 700;
+  background-color: rgb(83, 81, 81);
+  padding: 15px;
+  text-transform: uppercase;
+}
+.btn-tarif:hover {
+  color: white;
+  cursor: pointer;
+  font-size: 1.1rem;
+  background-color: rgba(128, 128, 128, 0.753);
+}
+
+@media screen and (max-width: 991px) {
+  .btn_Club,
+  .btn-contact {
+    padding: 17px 37px 17px 37px;
+    font-size: 1rem;
+  }
+  .secthome h1 {
+    font-size: 2rem;
+  }
+
+  .img-home {
+    width: 170px;
+  }
+  .sect3Content {
+    width: 95%;
+  }
+  .imgSlide img {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .btn_Club,
+  .btn-contact {
+    padding: 15px 30px 15px 30px;
+    font-size: 0.8rem;
+  }
+  .secthome h1 {
+    font-size: 1.7rem;
+  }
+  .img-home {
+    width: 150px;
+  }
+  .secthome h3 {
+    font-size: 1.4rem;
+  }
+  .sect3Content h1 {
+    font-size: 21px;
+  }
+  .descirption p {
+    font-size: 14px;
+  }
+  .imgSlide img {
+    height: 260px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .btn_Club,
+  .btn-contact {
+    padding: 10px 20px 10px 20px;
+    font-size: 0.8rem;
+  }
+  .secthome h1 {
+    font-size: 1.2rem;
+  }
+  .secthome h3 {
+    font-size: 1.2rem;
+  }
+  .img-home {
+    width: 100px;
+  }
+  .secthome {
+    height: 80vh;
+    width: 100%;
+    padding: 100px 25px 50px 25px;
+  }
+
+  .sect3Content h1 {
+    font-size: 21px;
+  }
+  .descirption p {
+    font-size: 14px;
+  }
+  .imgSlide img {
+    height: 260px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .imgSlide img {
+    height: 200px;
+  }
+  .landing {
+    width: 100%;
+  }
+  .parallax {
+    width: 100%;
+  }
+}
