@@ -1,7 +1,6 @@
-
 .parallax {
   /* The image used */
-  background-image: url("../images/img-bg.jpg");
+  background-image: url("../images/img-bg.png");
   /* Set a specific height */
   min-height: 500px;
   /* Create the parallax scrolling effect */
@@ -12,15 +11,16 @@
 }
 .sect1 {
   height: 100vh;
-  position: relative;
   display: flex;
-  flex-direction: column;
   background-color: rgba(0, 0, 0, 0.377);
 }
-.content {
+.sect1content {
   margin: auto;
   text-align: center;
   justify-content: center;
+  display: block;
+}
+.btn-sect1 {
 }
 .front-img {
   width: 200px;
@@ -31,23 +31,24 @@
   height: 100%;
   width: 100%;
 }
-.content h1,
-.content h3 {
+.sect1content h1,
+.sect1content h3 {
   margin: 50px;
   padding-top: 10px;
   color: white;
 }
 
-.content h1 {
+.sect1content h1 {
   font-size: 2.8rem;
   font-weight: bold;
 }
-.content h3 {
+.sect1content h3 {
   font-size: 2rem;
   letter-spacing: 1.5px;
 }
-.btn-2 {
-  padding: 10px;
+.btn-sect1 button {
+  padding: 20px 70px 20px 70px;
+  text-transform: uppercase;
   border: none;
   margin: 10px;
   color: white;
@@ -55,6 +56,15 @@
   font-size: 1.2rem;
   transition: all 0.3s ease-in-out;
   font-weight: 700;
+  background-color: #ffdd00;
+  letter-spacing: 1.5px;
+}
+.btn-sect1 button:hover {
+  cursor: pointer;
+  font-size: 1.1rem;
+  background-color: transparent;
+  border: 1px solid #ffdd00;
+  color: white;
 }
 .btn_Club,
 .btn-contact {
@@ -102,12 +112,18 @@
   margin-bottom: 20px;
 }
 .btn-2 {
-  margin-top: 10px;
-  background-color: rgb(83, 81, 81);
-  padding: 15px;
-  text-transform: uppercase;
+  padding: 10px;
+  border: none;
+  margin: 10px;
   color: white;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  transition: all 0.3s ease-in-out;
+  font-weight: 700;
+  background-color: rgb(83, 81, 81);
+  text-transform: uppercase;
 }
+
 .btn-2:hover {
   background-color: rgba(128, 128, 128, 0.753);
   color: white;
@@ -145,13 +161,17 @@
   margin: auto;
 }
 @media screen and (max-width: 991px) {
+  .btn-sect1 button {
+    padding: 20px 40px 20px 40px;
+    font-size: 1rem;
+  }
   .btn_Club,
   .btn-contact {
-    padding: 20px 50px 20px 50px;
-    font-size: 1.1rem;
+    padding: 20px 40px 20px 40px;
+    font-size: 1rem;
   }
-  .content h1 {
-    font-size: 2.5rem;
+  .sect1content h1 {
+    font-size: 2.2rem;
   }
   .sect3Content {
     width: 95%;
@@ -160,24 +180,27 @@
     width: 80%;
   }
 }
-
-@media screen and (max-width: 550px) {
-  .btn_Club,
-  .btn-contact {
-    padding: 10px 20px 10px 20px;
+@media screen and (max-width: 768px) {
+  .btn-sect1 button {
+    padding: 15px 30px 15px 30px;
     font-size: 0.8rem;
   }
-  .content h1 {
-    font-size: 1.6rem;
+  .btn_Club,
+  .btn-contact {
+    padding: 15px 30px 15px 30px;
+    font-size: 0.8rem;
+  }
+  .sect1content h1 {
+    font-size: 1.7rem;
   }
   .front-img {
     width: 130px;
   }
   .sect2Content h1 {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
   }
   .btn-2 {
-    font-size: 1rem;
+    font-size: 1.1rem;
     padding: 15px;
   }
   .sect3Content h1 {
@@ -190,26 +213,50 @@
     height: 260px;
   }
 }
-@media screen and (max-width: 420px) {
+
+@media screen and (max-width: 550px) {
+  .sect1 {
+    height: 80vh;
+  }
+  .btn-sect1 button {
+    padding: 10px 20px 10px 20px;
+    font-size: 0.8rem;
+  }
   .btn_Club,
   .btn-contact {
     padding: 10px 20px 10px 20px;
     font-size: 0.8rem;
   }
-
-  .content h1 {
-    font-size: 1.4rem;
-  }
-  .content h3 {
+  .sect1content h1 {
     font-size: 1.2rem;
   }
+  .sect1content h3 {
+    font-size: 1.4rem;
+  }
+  .front-img {
+    width: 100px;
+    height: 20 0px;
+    margin: auto;
+    z-index: +1000;
+  }
+  .front-img img {
+    height: 100%;
+    width: 100%;
+    z-index: +1000;
+  }
+
+  .sect3Content h1 {
+    font-size: 21px;
+  }
+  .descirption p {
+    font-size: 14px;
+  }
+  .imgSlide img {
+    height: 260px;
+  }
+}
+@media screen and (max-width: 420px) {
   .imgSlide img {
     height: 200px;
-  }
-  .landing {
-    width: 100%;
-  }
-  .parallax {
-    width: 100%;
   }
 }
