@@ -1,6 +1,6 @@
 .parallax {
   /* The image used */
-  background-image: url("../images/img-bg.jpg");
+  background-image: url("../images/img-bg.png");
   /* Set a specific height */
   min-height: 500px;
   /* Create the parallax scrolling effect */
@@ -197,11 +197,19 @@
   .sect1content h1 {
     font-size: 1.2rem;
   }
-  .front-img {
-    width: 100px;
-  }
   .sect1content h3 {
     font-size: 1.4rem;
+  }
+  .front-img {
+    width: 100px;
+    height: 20 0px;
+    margin: auto;
+    z-index: +1000;
+  }
+  .front-img img {
+    height: 100%;
+    width: 100%;
+    z-index: +1000;
   }
 
   .sect3Content h1 {
@@ -217,11 +225,5 @@
 @media screen and (max-width: 420px) {
   .imgSlide img {
     height: 200px;
-  }
-  .landing {
-    width: 100%;
-  }
-  .parallax {
-    width: 100%;
   }
 }
