@@ -22,11 +22,11 @@ const Acceuil = () => {
           </div>
           <h3> Salle de sport et de Fitness </h3>
           <div className="btn-sect1">
-            <Link className="btn_Club" to="/espace-musculation">
-              Club
+            <Link to="/espace-musculation">
+              <button>Club</button>
             </Link>
-            <Link className="btn-contact" to="/contact">
-              Contact
+            <Link to="/contact">
+              <button>Contact</button>
             </Link>
           </div>
         </div>
@@ -63,3 +63,10 @@ const Acceuil = () => {
 };
 
 export default Acceuil;
+/*
+ <Link className="btn_Club" to="/espace-musculation">
+              Club
+            </Link>
+            <Link className="btn-contact" to="/contact">
+              Contact
+            </Link>*/

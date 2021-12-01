@@ -12,13 +12,15 @@
 .sect1 {
   height: 100vh;
   display: flex;
-  flex-direction: column;
   background-color: rgba(0, 0, 0, 0.377);
 }
 .sect1content {
   margin: auto;
   text-align: center;
   justify-content: center;
+  display: block;
+}
+.btn-sect1 {
 }
 .front-img {
   width: 200px;
@@ -44,7 +46,26 @@
   font-size: 2rem;
   letter-spacing: 1.5px;
 }
-
+.btn-sect1 button {
+  padding: 20px 70px 20px 70px;
+  text-transform: uppercase;
+  border: none;
+  margin: 10px;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  transition: all 0.3s ease-in-out;
+  font-weight: 700;
+  background-color: #ffdd00;
+  letter-spacing: 1.5px;
+}
+.btn-sect1 button:hover {
+  cursor: pointer;
+  font-size: 1.1rem;
+  background-color: transparent;
+  border: 1px solid #ffdd00;
+  color: white;
+}
 .btn_Club,
 .btn-contact {
   padding: 20px 70px 20px 70px;
@@ -140,6 +161,10 @@
   margin: auto;
 }
 @media screen and (max-width: 991px) {
+  .btn-sect1 button {
+    padding: 20px 40px 20px 40px;
+    font-size: 1rem;
+  }
   .btn_Club,
   .btn-contact {
     padding: 20px 40px 20px 40px;
@@ -156,6 +181,10 @@
   }
 }
 @media screen and (max-width: 768px) {
+  .btn-sect1 button {
+    padding: 15px 30px 15px 30px;
+    font-size: 0.8rem;
+  }
   .btn_Club,
   .btn-contact {
     padding: 15px 30px 15px 30px;
@@ -188,6 +217,10 @@
 @media screen and (max-width: 550px) {
   .sect1 {
     height: 80vh;
+  }
+  .btn-sect1 button {
+    padding: 10px 20px 10px 20px;
+    font-size: 0.8rem;
   }
   .btn_Club,
   .btn-contact {
